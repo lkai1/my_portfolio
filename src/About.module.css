@@ -1,0 +1,30 @@
+.main {
+    width: 80%;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.meImg {
+    height: 220px;
+    margin-right: 40px;
+}
+
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutTitle {
+    font-size: 35px;
+    color: orange;
+}
+
+.aboutText {
+    font-size: 18px;
+    color: rgb(71, 71, 71);
+}
