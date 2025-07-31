@@ -1,0 +1,38 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 300px;
+    margin: 10px;
+}
+
+.projectName {
+    font-size: 32px;
+}
+
+.projectDescription {
+    font-size: 25px;
+}
+
+.technologyContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+}
+
+.technologyLogo {
+    width: 60px;
+    border-radius: 12px;
+}
+
+.technologyName {
+    font-size: 20px;
+}
