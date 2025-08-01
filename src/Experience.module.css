@@ -4,6 +4,16 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 80px;
+}
+
+.sectionTitle {
+    font-size: 35px;
+    color: rgb(40, 40, 40);
+    font-family: Fjalla;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 60px;
 }
 
 .experienceContainer {
@@ -14,17 +24,46 @@
     text-align: center;
 }
 
+.experienceTitleContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.experienceTitleIcon {
+    width: 47px;
+    height: 47px;
+    fill: orange;
+    margin: 0;
+    margin-right: 18px;
+}
+
 .experienceTitle {
-    font-size: 25px;
+    font-size: 27px;
     font-weight: bold;
+    font-family: Fjalla;
+    color: rgb(40, 40, 40);
 }
 
 .experienceText {
     font-size: 20px;
     text-wrap: wrap;
-
+    font-family: Titillium;
+    font-weight: bold;
+    color: rgb(70, 70, 70);
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 7px;
+    border: 3px solid rgb(200, 200, 200);
 }
 
 .arrowDown {
-    font-size: 30px;
+    width: 53px;
+    height: 53px;
+    fill: orange;
+    margin: 0;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }

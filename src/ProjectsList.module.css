@@ -3,6 +3,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .projectContainer {
@@ -15,17 +17,35 @@
 }
 
 .projectName {
-    font-size: 32px;
+    font-size: 34px;
+    font-family: Fjalla;
+    font-weight: bold;
+    margin: 0;
+    color: rgb(40, 40, 40);
 }
 
 .projectDescription {
     font-size: 25px;
+    font-size: 20px;
+    text-wrap: wrap;
+    font-family: Titillium;
+    font-weight: bold;
+    color: rgb(70, 70, 70);
+    margin: 0;
+    margin-top: 22px;
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 7px;
+    border: 3px solid rgb(200, 200, 200);
 }
 
 .technologyContainer {
     display: flex;
     justify-content: flex-start;
     align-items: start;
+    margin-top: 10px;
+    max-width: 280px;
 }
 
 .technologyLogo {
@@ -34,5 +54,14 @@
 }
 
 .technologyName {
+    margin: 0;
+    margin-left: 25px;
     font-size: 20px;
+    font-family: Titillium;
+    font-weight: bold;
+    color: rgb(70, 70, 70);
+    background-color: white;
+    padding: 15px;
+    border-radius: 7px;
+    border: 3px solid rgb(200, 200, 200);
 }

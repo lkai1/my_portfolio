@@ -1,0 +1,16 @@
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(255, 132, 31);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.infoText {
+    color: rgb(220, 220, 220);
+    font-weight: bold;
+    font-size: 23px;
+    font-family: "Mozilla";
+}
