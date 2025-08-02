@@ -8,3 +8,14 @@
   height: 100%;
   place-items: center;
 }
+
+.aboutAndExperienceContainer {
+  width: 100%;
+  place-items: center;
+  background-image: url('/iceland.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}

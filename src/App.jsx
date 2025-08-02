@@ -8,8 +8,10 @@ const App = () => {
 
   return (
     <div className={styles.main}>
-      <About />
-      <Experience />
+      <div className={styles.aboutAndExperienceContainer}>
+        <About />
+        <Experience />
+      </div>
       <ProjectsList />
       <Footer />
     </div>

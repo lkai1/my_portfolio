@@ -52,12 +52,12 @@ const Experience = () => {
                     <Work className={styles.experienceTitleIcon} />
                     <p className={styles.experienceTitle}>DeFination Labs FZCO</p>
                 </div>
-                <p className={styles.experienceText}>Fullstack web ja mobiilikehitystä freelancerinä. Työskentelin täysin etänä
-                    omissa projekteissa kuin myös tiimiprojekteissa. Suunnittelin ja
-                    toteutin web/mobiili käyttöliittymiä joihin tein myös täysin yksin tai osana tiimiä
-                    myös backend puolen töitä. Tein myös osan näistä projekteista täysin itsenäisesti,
+                <p className={styles.experienceText}>Fullstack web ja mobiilikehitystä freelancerinä. Työskentelin etänä
+                    omissa projekteissa niin kuin myös tiimiprojekteissa. Suunnittelin ja
+                    toteutin web/mobiili käyttöliittymiä, joihin tein myös yksin tai osana tiimiä
+                    backend puolen töitä. Tein myös osan näistä projekteista täysin itsenäisesti,
                     kehitysympäristön valinnasta ja pystyttämisestä asti valmiiksi pilvipalveluissa pyöriviin
-                    ja täysin toimiviksi tuotteiksi.
+                    täysin toimiviksi tuotteiksi.
                 </p>
             </div>
             <ArrowDown className={styles.arrowDown} />
