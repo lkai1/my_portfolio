@@ -8,6 +8,7 @@
     justify-content: center;
     margin: auto;
     background-color: rgb(240, 240, 240);
+    overflow: hidden;
 }
 
 .meImg {
@@ -53,4 +54,32 @@
     margin: 0;
     margin-top: 15px;
     border-radius: 10px;
+}
+
+@media (max-width: 1000px) {
+    .meImg {
+        margin-left: 30px;
+    }
+
+    .aboutText {
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 750px) {
+    .titleContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutTitle {
+        font-size: 20px;
+        margin: 0;
+    }
+}
+
+@media (max-width: 550px) {
+    .aboutText {
+        font-size: 17px;
+    }
 }
