@@ -9,7 +9,7 @@ const ProjectsList = () => {
                 <div className={styles.projectContainer}>
                     <a className={styles.projectNameLink} href="https://www.flierchat.com" target="_blank" rel="noopener noreferrer">Flierchat</a>
                     <img src="/flierchat.png" className={styles.projectImage} />
-                    <p className={styles.projectDescription}>Realtime chat web app</p>
+                    <p className={styles.projectDescription}>Reaaliaikainen viestintäsovellus</p>
                     <div className={styles.technologiesContainer}>
                         <div className={styles.technologyContainer}>
                             <img src="/typescript.png" className={styles.technologyLogo} />
@@ -58,7 +58,7 @@ const ProjectsList = () => {
                 <div className={styles.projectContainer}>
                     <a className={styles.projectNameLink} href="https://bonusfun-production.up.railway.app/fi" target="_blank" rel="noopener noreferrer">Bonusfun</a>
                     <img src="/bonus_fun.png" className={styles.projectImage} />
-                    <p className={styles.projectDescription}>Casino reflink web app</p>
+                    <p className={styles.projectDescription}>Kasinoiden affiliatelinkkisovellus</p>
                     <div className={styles.technologiesContainer}>
                         <div className={styles.technologyContainer}>
                             <img src="/javascript.png" className={styles.technologyLogo} />
@@ -102,7 +102,7 @@ const ProjectsList = () => {
                 <div className={styles.projectContainer}>
                     <p className={styles.projectName}>Wallet Track</p>
                     <img src="/wallet_track.png" className={styles.projectImage} />
-                    <p className={styles.projectDescription}>Telegram crypto wallet tracker bot</p>
+                    <p className={styles.projectDescription}>Kryptolompakkojen seurantabotti Telegramissa</p>
                     <div className={styles.technologiesContainer}>
                         <div className={styles.technologyContainer}>
                             <img src="/javascript.png" className={styles.technologyLogo} />
@@ -130,7 +130,7 @@ const ProjectsList = () => {
                 <div className={styles.projectContainer}>
                     <a className={styles.projectNameLink} href="https://lkai1.github.io/meme_coin_template" target="_blank" rel="noopener noreferrer">Kenny</a>
                     <img src="/kenny.png" className={styles.projectImage} />
-                    <p className={styles.projectDescription}>Crypto memecoin website</p>
+                    <p className={styles.projectDescription}>Kryptokolikon nettisivu</p>
                     <div className={styles.technologiesContainer}>
                         <div className={styles.technologyContainer}>
                             <img src="/javascript.png" className={styles.technologyLogo} />

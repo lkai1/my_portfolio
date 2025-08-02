@@ -1,12 +1,15 @@
 .main {
-    width: 70%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-bottom: 50px;
 }
 
 .sectionTitle {
+    padding-top: 80px;
     font-size: 35px;
     color: orange;
     font-family: Fjalla;
@@ -21,6 +24,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    width: 80%;
 }
 
 .experienceTitleContainer {
@@ -42,7 +46,7 @@
     font-size: 27px;
     font-weight: bold;
     font-family: Fjalla;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .experienceText {

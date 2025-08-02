@@ -3,9 +3,16 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: rgb(255, 132, 31);
-    padding-top: 20px;
-    padding-bottom: 20px;
+    background-color: rgb(255, 126, 20);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .link {
@@ -15,9 +22,13 @@
     font-size: 23px;
     font-family: Mozilla;
     margin: 0;
-    margin-top: 20px;
     color: rgb(220, 220, 220);
     text-decoration: underline;
+}
+
+.infoTextIcon {
+    height: 30px;
+    margin-right: 7px;
 }
 
 .infoText {
@@ -25,4 +36,5 @@
     font-weight: bold;
     font-size: 23px;
     font-family: Mozilla;
+    margin: 0;
 }

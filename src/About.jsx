@@ -12,7 +12,7 @@ const About = () => {
                 </div>
                 <p className={styles.aboutText}>
                     FullStack web ja -mobiilikehittäjä 6 vuoden yhdistetyllä
-                    harrastaja- ja työkokemuksella
+                    harrastaja- ja työkokemuksella.
                 </p>
             </div>
         </div>

@@ -12,10 +12,8 @@
 .aboutAndExperienceContainer {
   width: 100%;
   place-items: center;
-  background-image: url('/iceland.jpg');
+  background-image: url('/code.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding-top: 50px;
-  padding-bottom: 50px;
 }
