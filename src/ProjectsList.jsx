@@ -126,34 +126,6 @@ const ProjectsList = () => {
                         </div>
                     </div>
                 </div>
-
-                <div className={styles.projectContainer}>
-                    <a className={styles.projectNameLink} href="https://lkai1.github.io/meme_coin_template" target="_blank" rel="noopener noreferrer">Kenny</a>
-                    <img src="/kenny.png" className={styles.projectImage} />
-                    <p className={styles.projectDescription}>Kryptokolikon nettisivu</p>
-                    <div className={styles.technologiesContainer}>
-                        <div className={styles.technologyContainer}>
-                            <img src="/javascript.png" className={styles.technologyLogo} />
-                            <p className={styles.technologyName}>Javascript</p>
-                        </div>
-                        <div className={styles.technologyContainer}>
-                            <img src="/react.png" className={styles.technologyLogo} />
-                            <p className={styles.technologyName}>React</p>
-                        </div>
-                        <div className={styles.technologyContainer}>
-                            <img src="/framer_motion.png" className={styles.technologyLogo} />
-                            <p className={styles.technologyName}>Framer Motion</p>
-                        </div>
-                        <div className={styles.technologyContainer}>
-                            <img src="/css.png" className={styles.technologyLogo} />
-                            <p className={styles.technologyName}>CSS</p>
-                        </div>
-                        <div className={styles.technologyContainer}>
-                            <img src="/nextjs.png" className={styles.technologyLogo} />
-                            <p className={styles.technologyName}>NextJS</p>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     )
