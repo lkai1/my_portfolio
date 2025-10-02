@@ -11,7 +11,7 @@ const Footer = () => {
             </div>
             <div className={styles.infoContainer}>
                 <img src="/phone.png" className={styles.infoTextIcon} />
-                <p className={styles.infoText}>+358449559127</p>
+                <p className={styles.infoText}>Lost sim card on vacation. Update soon.</p>
             </div>
             <div className={styles.infoContainer}>
                 <img src="/email.png" className={styles.infoTextIcon} />
