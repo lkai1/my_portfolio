@@ -10,6 +10,7 @@ const TechExperience = () => {
                 <Circle className={experienceAmount > 1 ? styles.circleIconColor : styles.circleIcon} />
                 <Circle className={experienceAmount > 2 ? styles.circleIconColor : styles.circleIcon} />
                 <Circle className={experienceAmount > 3 ? styles.circleIconColor : styles.circleIcon} />
+                <Circle className={experienceAmount > 4 ? styles.circleIconColor : styles.circleIcon} />
             </div>
         )
     }
@@ -17,11 +18,12 @@ const TechExperience = () => {
     const getTechExperience = (experienceAmount, experienceTime, techLogo, techName) => {
         return (
             <div className={styles.technologyContainer}>
-                {getTechExperiencePoints(experienceAmount)}
+
                 <div className={styles.techNameAndLogoContainer}>
                     <img src={techLogo} className={styles.technologyLogo} />
                     <p className={styles.technologyName}>{techName}</p>
                 </div>
+                {getTechExperiencePoints(experienceAmount)}
                 <p className={styles.experienceTime}>({experienceTime} vuotta)</p>
             </div>
         )
@@ -38,10 +40,10 @@ const TechExperience = () => {
                 {getTechExperience(4, 4, "/postgresql.png", "PostgreSQL")}
                 {getTechExperience(4, 2, "/typescript.png", "TypeScript")}
                 {getTechExperience(4, 1, "/mongodb.png", "MongoDB")}
-                {getTechExperience(2, 1, "/react.png", "React Native")}
+                {getTechExperience(3, 1, "/react.png", "React Native")}
                 {getTechExperience(2, 0.9, "/csharp.png", "C#")}
                 {getTechExperience(2, 0.9, "/dotnet.png", ".NET")}
-                {getTechExperience(2, 0.7, "/sql.png", "SQL")}
+                {getTechExperience(3, 0.7, "/sql.png", "SQL")}
                 {getTechExperience(3, 0.5, "/nextjs.png", "NextJS")}
                 {getTechExperience(2, 0.3, "/vitejs.png", "ViteJS")}
                 {getTechExperience(1, 0.1, "/aws.png", "AWS")}
