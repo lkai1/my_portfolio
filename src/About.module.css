@@ -60,12 +60,10 @@
 }
 
 @media (max-width: 1000px) {
-    .meImg {
-        margin-left: 30px;
-    }
 
     .aboutText {
-        margin-right: 30px;
+        margin-right: 20px;
+        margin-left: 20px;
     }
 }
 
