@@ -3,7 +3,7 @@ import styles from "./ProjectsList.module.css"
 const ProjectsList = () => {
     return (
         <div className={styles.main}>
-            <p className={styles.sectionTitle}>Projekteja</p>
+            <p className={styles.sectionTitle}>Vapaa-ajan projekteja</p>
             <div className={styles.projects}>
 
                 <div className={styles.projectContainer}>
