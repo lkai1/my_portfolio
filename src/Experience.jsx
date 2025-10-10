@@ -12,7 +12,7 @@ const Experience = () => {
             <div className={styles.experienceContainer}>
                 <div className={styles.experienceTitleContainer}>
                     <School className={styles.experienceTitleIcon} />
-                    <p className={styles.experienceTitle}>Helsingin avoin yliopisto</p>
+                    <p className={styles.experienceTitle}>Helsingin avoin yliopisto (8 kk)</p>
                 </div>
                 <p className={styles.experienceText}>Suoritin verkossa tietojenkäsittelytieteen opintoja,
                     jotka vastaavat yliopiston ensimmäisen vuoden sisältöä.
@@ -27,7 +27,7 @@ const Experience = () => {
             <div className={styles.experienceContainer}>
                 <div className={styles.experienceTitleContainer}>
                     <School className={styles.experienceTitleIcon} />
-                    <p className={styles.experienceTitle}>React Buutcamp</p>
+                    <p className={styles.experienceTitle}>React Buutcamp (2.5 kk)</p>
                 </div>
                 <p className={styles.experienceText}>Kurssilla tutustuttiin HTML:n, CSS:n, JavaScriptin ja Reactin alkeisiin,
                     ja painopiste oli erityisesti peruskäsitteiden ja työkalujen ymmärtämisessä.
@@ -40,7 +40,7 @@ const Experience = () => {
             <div className={styles.experienceContainer}>
                 <div className={styles.experienceTitleContainer}>
                     <School className={styles.experienceTitleIcon} />
-                    <p className={styles.experienceTitle}>Buutti trainee academy</p>
+                    <p className={styles.experienceTitle}>Buutti trainee academy (3.5 kk)</p>
                 </div>
                 <p className={styles.experienceText}>FullStack-webkehitykseen keskittyvä koulutus,
                     jossa käytiin läpi verkkosovellusten kehittämistä alusta loppuun.
@@ -57,7 +57,7 @@ const Experience = () => {
             <div className={styles.experienceContainer}>
                 <div className={styles.experienceTitleContainer}>
                     <Work className={styles.experienceTitleIcon} />
-                    <p className={styles.experienceTitle}>Wiiste oy</p>
+                    <p className={styles.experienceTitle}>Wiiste oy (6 kk)</p>
                 </div>
                 <p className={styles.experienceText}>Suoritin työharjoittelun fullstack-kehittäjänä yrityksessä,
                     jossa toimin ainoana web-kehittäjänä. Vastasin itsenäisesti erilaisista kehitystehtävistä ilman teknistä tukea,
@@ -73,7 +73,7 @@ const Experience = () => {
             <div className={styles.experienceContainer}>
                 <div className={styles.experienceTitleContainer}>
                     <Work className={styles.experienceTitleIcon} />
-                    <p className={styles.experienceTitle}>DeFination Labs FZCO</p>
+                    <p className={styles.experienceTitle}>DeFination Labs FZCO (1 v)</p>
                 </div>
                 <p className={styles.experienceText}>Olen toiminut freelancerina fullstack-web- ja mobiilikehittäjänä,
                     tehden sekä omia että tiimiprojekteja etätyönä.
@@ -89,7 +89,7 @@ const Experience = () => {
             <div className={styles.experienceContainer}>
                 <div className={styles.experienceTitleContainer}>
                     <School className={styles.experienceTitleIcon} />
-                    <p className={styles.experienceTitle}>Hakatemia</p>
+                    <p className={styles.experienceTitle}>Hakatemia (2 kk)</p>
                 </div>
                 <p className={styles.experienceText}>Osallistun tällä hetkellä verkkokoulutukseen,
                     jossa perehdytään eettiseen hakkerointiin ja tietoturvaan käytännön kautta. Koulutus suoritetaan omaan tahtiin,

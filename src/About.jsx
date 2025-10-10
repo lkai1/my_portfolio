@@ -8,11 +8,13 @@ const About = () => {
             <div className={styles.aboutContainer}>
                 <div className={styles.titleContainer}>
                     <p className={styles.aboutTitleName}>Kai Lehtinen</p>
-                    <p className={styles.aboutTitle}>FullStack Web kehittäjä</p>
+                    <p className={styles.aboutTitle}>FullStack kehittäjä</p>
                 </div>
                 <p className={styles.aboutText}>
-                    FullStack web ja -mobiilikehittäjä 6 vuoden yhdistetyllä
-                    harrastaja- ja työkokemuksella.
+                    Olen Kai Lehtinen ja haen FullStack-kehittäjän työtehtävää.
+                    Minulla on noin kuuden vuoden yhdistetty kokemus web- ja mobiilikehityksestä,
+                    joka on muodostunut harrastuneisuudesta, useista koulutuksista,
+                    työharjoittelusta sekä freelance-projekteista.
                 </p>
             </div>
         </div>
