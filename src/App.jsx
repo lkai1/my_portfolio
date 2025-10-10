@@ -3,6 +3,7 @@ import About from "./About"
 import Experience from "./Experience"
 import ProjectsList from "./ProjectsList"
 import Footer from "./Footer"
+import TechExperience from "./TechExperience"
 
 const App = () => {
 
@@ -12,6 +13,7 @@ const App = () => {
         <About />
         <Experience />
       </div>
+      <TechExperience />
       <ProjectsList />
       <Footer />
     </div>
