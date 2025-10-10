@@ -13,6 +13,16 @@
     margin-bottom: 60px;
 }
 
+@keyframes moveFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
 .projects {
     display: flex;
     flex-direction: row;
@@ -21,6 +31,11 @@
     flex-wrap: wrap;
     margin-bottom: 50px;
     margin-top: 50px;
+    width: 100%;
+
+    animation: moveFromLeft linear both;
+    animation-timeline: view();
+    animation-range: entry 10% cover 35%;
 }
 
 .projectContainer {
