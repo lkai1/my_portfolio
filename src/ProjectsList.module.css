@@ -1,39 +1,51 @@
 .main {
+    position: relative;
     width: 90%;
-    margin-top: 50px;
+    background-color: rgb(245, 245, 245);
+    z-index: 2;
 }
 
 .sectionTitle {
+    position: relative;
     text-align: center;
     font-size: 35px;
     color: rgb(40, 40, 40);
     font-family: Fjalla;
     font-weight: bold;
     margin: 0;
-    margin-bottom: 60px;
+    padding-bottom: 30px;
+    padding-top: 60px;
+    background-color: rgb(245, 245, 245);
+    z-index: 2;
 }
 
 @keyframes moveFromLeft {
     0% {
-        transform: translateX(-100%);
-        opacity: 0;
+        transform: translateY(-100%);
+        opacity: 0.2;
+    }
+
+    95% {
+        opacity: 0.7;
     }
 
     100% {
-        transform: translateX(0);
+        transform: translateY(0);
         opacity: 1;
     }
 }
 
 .projects {
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 50px;
-    margin-top: 50px;
+    margin-top: 30px;
     width: 100%;
+    z-index: 1;
 
     animation: moveFromLeft linear both;
     animation-timeline: view();
@@ -52,9 +64,8 @@
 }
 
 .projectName {
-    font-size: 30px;
+    font-size: 33px;
     font-family: Fjalla;
-    font-weight: bold;
     margin: 0;
     margin-bottom: 10px;
     color: rgb(40, 40, 40);
@@ -62,18 +73,17 @@
 
 .projectNameLink {
     all: unset;
-    font-size: 30px;
+    font-size: 33px;
     font-family: Fjalla;
-    font-weight: bold;
     margin: 0;
     margin-bottom: 10px;
-    color: rgb(18, 145, 230);
+    color: rgb(0, 162, 255);
     cursor: pointer;
     text-decoration: underline;
 }
 
 .projectNameLink:hover {
-    color: rgb(0, 162, 255);
+    color: rgb(72, 176, 245);
 }
 
 .projectDescription {

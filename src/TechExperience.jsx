@@ -40,6 +40,7 @@ const TechExperience = () => {
                 {getTechExperience(4, 1, "/mongodb.png", "MongoDB")}
                 {getTechExperience(2, 1, "/react.png", "React Native")}
                 {getTechExperience(2, 0.9, "/csharp.png", "C#")}
+                {getTechExperience(2, 0.9, "/dotnet.png", ".NET")}
                 {getTechExperience(2, 0.7, "/sql.png", "SQL")}
                 {getTechExperience(3, 0.5, "/nextjs.png", "NextJS")}
                 {getTechExperience(2, 0.3, "/vitejs.png", "ViteJS")}
