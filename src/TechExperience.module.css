@@ -81,3 +81,35 @@
     color: rgb(100, 100, 100);
     border-radius: 7px;
 }
+
+@media (max-width: 700px) {
+
+    .technologyContainer {
+        min-width: 150px;
+    }
+
+    .circleIcon {
+        height: 18px;
+    }
+
+    .circleIconColor {
+        height: 18px;
+    }
+
+    .techNameAndLogoContainer {
+        max-width: 150px;
+    }
+
+    .technologyLogo {
+        height: 30px;
+        border-radius: 3px;
+    }
+
+    .technologyName {
+        font-size: 19px;
+    }
+
+    .experienceTime {
+        font-size: 16px;
+    }
+}
