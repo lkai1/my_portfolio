@@ -3,13 +3,14 @@ import styles from "./ProjectsList.module.css"
 const ProjectsList = () => {
     return (
         <div className={styles.main}>
-            <p className={styles.sectionTitle}>Vapaa-ajan projekteja</p>
+            <p className={styles.sectionTitle}>Hobby Projects</p>
             <div className={styles.projects}>
 
                 <div className={styles.projectContainer}>
                     <a className={styles.projectNameLink} href="https://www.flierchat.com" target="_blank" rel="noopener noreferrer">Flierchat</a>
                     <img src="/flierchat.png" className={styles.projectImage} />
-                    <p className={styles.projectDescription}>Reaaliaikainen viestintäsovellus</p>
+                    <p className={styles.projectDescription}>Realtime chat web application</p>
+                    <p className={styles.technologiesTitle}>Main Tech Stack:</p>
                     <div className={styles.technologiesContainer}>
                         <div className={styles.technologyContainer}>
                             <img src="/typescript.png" className={styles.technologyLogo} />
@@ -58,7 +59,8 @@ const ProjectsList = () => {
                 <div className={styles.projectContainer}>
                     <a className={styles.projectNameLink} href="https://bonusfun-production.up.railway.app/fi" target="_blank" rel="noopener noreferrer">Bonusfun</a>
                     <img src="/bonus_fun.png" className={styles.projectImage} />
-                    <p className={styles.projectDescription}>Kasinoiden affiliatelinkkisovellus</p>
+                    <p className={styles.projectDescription}>Casino reflink web application</p>
+                    <p className={styles.technologiesTitle}>Main Tech Stack:</p>
                     <div className={styles.technologiesContainer}>
                         <div className={styles.technologyContainer}>
                             <img src="/javascript.png" className={styles.technologyLogo} />
@@ -102,7 +104,8 @@ const ProjectsList = () => {
                 <div className={styles.projectContainer}>
                     <p className={styles.projectName}>Wallet Track</p>
                     <img src="/wallet_track.png" className={styles.projectImage} />
-                    <p className={styles.projectDescription}>Kryptolompakkojen seurantabotti Telegramissa</p>
+                    <p className={styles.projectDescription}>Cryptowallet tracker bot for telegram</p>
+                    <p className={styles.technologiesTitle}>Main Tech Stack:</p>
                     <div className={styles.technologiesContainer}>
                         <div className={styles.technologyContainer}>
                             <img src="/javascript.png" className={styles.technologyLogo} />

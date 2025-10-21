@@ -32,15 +32,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 400px;
+    width: 320px;
     margin: 10px;
     margin-left: 50px;
     margin-right: 50px;
+    background-color: rgb(240, 240, 240);
+    border: 2px solid rgb(230, 230, 230);
+    border-radius: 5px;
+    padding: 10px;
 }
 
 .projectName {
     font-size: 33px;
     font-family: Fjalla;
+    font-weight: bold;
     margin: 0;
     margin-bottom: 10px;
     color: rgb(40, 40, 40);
@@ -52,36 +57,42 @@
     font-family: Fjalla;
     margin: 0;
     margin-bottom: 10px;
-    color: #09f;
+    color: rgb(0, 140, 255);
     cursor: pointer;
     text-decoration: underline;
 }
 
 .projectNameLink:hover {
-    color: #0086df;
-}
-
-.projectDescription {
-    font-size: 25px;
-    font-size: 20px;
-    text-wrap: wrap;
-    font-family: Titillium;
-    font-weight: bold;
-    width: 100%;
-    text-align: center;
-    color: rgb(70, 70, 70);
-    margin: 0;
-    margin-top: 22px;
-    margin-bottom: 20px;
-    border-radius: 7px;
+    color: #0082d8;
 }
 
 .projectImage {
     width: 300px;
     height: 220px;
-    object-fit: cover;
-    border-radius: 10px;
-    border: 3px solid black;
+    object-fit: fill;
+    border-radius: 5px;
+}
+
+.projectDescription {
+    font-size: 19px;
+    text-wrap: wrap;
+    font-family: Titillium;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    color: rgb(50, 50, 50);
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+
+.technologiesTitle {
+    font-family: Titillium;
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: rgb(50, 50, 50);
 }
 
 .technologiesContainer {
@@ -89,7 +100,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    max-width: 400px;
     flex-wrap: wrap;
 }
 
@@ -113,6 +123,6 @@
     font-size: 15px;
     font-family: Titillium;
     font-weight: bold;
-    color: rgb(70, 70, 70);
+    color: rgb(50, 50, 50);
     border-radius: 7px;
 }
