@@ -64,12 +64,9 @@ const Experience = () => {
                         companyName="University of Helsinki"
                         positionName="Student"
                         location="Remote"
-                        description="Suoritin verkossa tietojenkäsittelytieteen opintoja,
-                            jotka vastaavat yliopiston ensimmäisen vuoden sisältöä.
-                            Opinnoissa käytiin läpi muun muassa ohjelmoinnin perusteita,
-                            algoritmeja ja tietorakenteita sekä tietojenkäsittelyn keskeisiä käsitteitä ja ongelmanratkaisua.
-                            Opinnot toteutettiin omaan tahtiin verkkokurssina,
-                            ja ne antoivat hyvän pohjan ymmärtää, miten ohjelmistot toimivat ja miten niitä rakennetaan."
+                        description="I completed online studies in computer science that correspond to the content of the first year at university.
+                            The studies covered, among other things, the basics of programming, algorithms and data structures, as well as key concepts in computer science and problem-solving.
+                            The courses were self-paced online, and they provided a solid foundation for understanding how software works and how it is developed."
                     />
                 </div>
 
@@ -84,10 +81,9 @@ const Experience = () => {
                         companyName="Buutti Oy"
                         positionName="Student"
                         location="Remote"
-                        description="Kurssilla tutustuttiin HTML:n, CSS:n, JavaScriptin ja Reactin alkeisiin,
-                            ja painopiste oli erityisesti peruskäsitteiden ja työkalujen ymmärtämisessä.
-                            Opin, miten verkkosivujen rakenne, ulkoasu ja perustoiminnallisuus syntyvät,
-                            ja sain hyvän pohjan jatkaa opiskelua ja kehittää osaamista syvemmälle käytännön kautta."
+                        description="The course introduced the basics of HTML, CSS, JavaScript, and React, with a particular focus on understanding fundamental concepts and tools.
+                            I learned how the structure, appearance, and basic functionality of web pages are created, 
+                            and I gained a solid foundation to continue learning and develop my skills further through practical experience."
                     />
                 </div>
 
@@ -102,14 +98,10 @@ const Experience = () => {
                         companyName="Buutti Oy"
                         positionName="Student"
                         location="Hybrid"
-                        description="FullStack-webkehitykseen keskittyvä koulutus,
-                            jossa käytiin läpi verkkosovellusten kehittämistä alusta loppuun.
-                            Kurssilla tutustuttiin muun muassa JavaScriptiin,
-                            TypeScriptiin, CSS:ään, SQL:ään, PostgreSQL:ään ja MongoDB:hen.
-                            Opintoihin sisältyi myös käyttäjien rekisteröinnin ja kirjautumisen toteuttaminen JWT-tunnisteilla,
-                            sekä testauksen ja Material UI -komponenttikirjaston käyttö.
-                            Koulutus painottui käytännön harjoituksiin ja tiimityöhön,
-                            ja tarjosi hyvän kokonaiskuvan siitä, miten moderneja fullstack-sovelluksia rakennetaan sekä front- että backendin näkökulmasta."
+                        description="A training program focused on FullStack web development, covering the creation of web applications from start to finish.
+                            The course included exposure to JavaScript, TypeScript, CSS, SQL, PostgreSQL, and MongoDB.
+                            The studies also involved implementing user registration and login using JWT tokens, as well as testing with Jest and Cypress and using the Material UI component library.
+                            The training emphasized practical exercises and teamwork, providing a solid overall understanding of how modern full-stack applications are built from both the frontend and backend perspectives"
                     />
                 </div>
 
@@ -124,13 +116,11 @@ const Experience = () => {
                         companyName="Wiiste Oy"
                         positionName="Trainee FullStack developer"
                         location="Hybrid"
-                        description="Suoritin työharjoittelun fullstack-kehittäjänä yrityksessä,
-                            jossa toimin ainoana web-kehittäjänä. Vastasin itsenäisesti erilaisista kehitystehtävistä ilman teknistä tukea,
-                            ja hyödynsin laajasti aiempaa osaamistani. Työskentelin sekä frontendin että backendin parissa.
-                            Harjoittelu oli käytännönläheinen ja antoi vastuuta heti alusta alkaen.
-                            Tehtäviini kuului muun muassa suurten datamäärien (jopa 50 000 datapistettä) sisältävän graafikomponentin optimointi,
-                            verkkosivun rikkinäisten animaatioiden korjaaminen sekä merkittävien muutosten tekeminen C# ASP.NET -taustajärjestelmään.
-                            Harjoittelu kehitti erityisesti itsenäistä ongelmanratkaisukykyä ja käytännön valmiuksia työskennellä tuotantoympäristössä."
+                        description="I completed an internship as a FullStack developer at a company where I was the sole web developer. 
+                            I was independently responsible for various development tasks without technical support, making extensive use of my previous skills. I worked on both the frontend and backend.
+                            The internship was hands-on and provided responsibility from the very beginning. My tasks included, among other things, 
+                            optimizing a graphical component handling large datasets (up to 50,000 data points), fixing broken animations on the website, and implementing significant changes to a C# ASP.NET backend system.
+                            The internship particularly developed my ability to solve problems independently and enhanced my practical skills for working in a production environment."
                     />
                 </div>
 
@@ -145,13 +135,10 @@ const Experience = () => {
                         companyName="Defination Labs FZCO"
                         positionName="Mid-level FullStack developer"
                         location="Remote"
-                        description="Olen toiminut freelancerina fullstack-web- ja mobiilikehittäjänä,
-                            tehden sekä omia että tiimiprojekteja etätyönä.
-                            Vastasin käyttöliittymien suunnittelusta ja toteutuksesta sekä niiden backend-ratkaisuista,
-                            joko itsenäisesti tai osana tiimiä.
-                            Useissa projekteissa toimin täysin itsenäisesti alusta loppuun:
-                            valitsin ja pystytin kehitysympäristön sekä rakensin tuotteen valmiiksi toimivaksi pilvipohjaiseksi palveluksi.
-                            Kokemusta kertyi kokonaisvaltaisesta kehitystyöstä, jossa yhdistyvät tekninen osaaminen ja projektin hallinta."
+                        description="I worked as a freelancer as a FullStack web and mobile developer, completing both solo and team projects remotely.
+                            I was responsible for designing and implementing user interfaces as well as their backend solutions, either independently or as part of a team.
+                            In several projects, I managed the entire process independently: selecting and setting up the development environment and building the product into a fully functional cloud-based service.
+                            This experience gave me comprehensive development skills, combining technical expertise with project management."
                     />
                 </div>
 
@@ -166,11 +153,9 @@ const Experience = () => {
                         companyName="Hakatemia Oy"
                         positionName="Cyber security student"
                         location="Remote"
-                        description="Osallistun tällä hetkellä verkkokoulutukseen,
-                            jossa perehdytään eettiseen hakkerointiin ja tietoturvaan käytännön kautta. Koulutus suoritetaan omaan tahtiin,
-                            ja sen aikana harjoitellaan aidosti tietoturva-aukkojen löytämistä ja hyödyntämistä palvelimilta ja käyttöliittymistä.
-                            Koulutus tarjoaa arvokasta kokemusta tietoturvatestauksesta sekä syventää ymmärrystä siitä,
-                            miten järjestelmien turvallisuutta voidaan kehittää vastuullisin ja tehokkain menetelmin."
+                        description="I am currently participating in an online training program focused on ethical hacking and cybersecurity through practical exercises.
+                            The course is self-paced, and it provides hands-on practice in identifying and exploiting security vulnerabilities in servers and user interfaces.
+                            The training offers valuable experience in security testing and deepens understanding of how system security can be improved using responsible and effective methods"
                     />
                 </div>
             </div>
