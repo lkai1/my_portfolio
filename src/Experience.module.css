@@ -170,13 +170,8 @@
     padding: 10px;
 }
 
-@media (max-width: 800px) {
-    .main {
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .infoContainer {
-        margin: 5px
+@media (max-width: 500px) {
+    .modalContent {
+        width: 280px;
     }
 }
