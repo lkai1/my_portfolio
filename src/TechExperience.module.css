@@ -28,25 +28,11 @@
     justify-content: center;
     align-items: center;
     margin: 10px;
-    min-width: 280px;
-}
-
-.techExperiencePoints {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     max-width: 280px;
-}
-
-.circleIcon {
-    fill: rgb(210, 210, 210);
-    height: 26px;
-}
-
-.circleIconColor {
-    fill: rgb(41, 219, 41);
-    height: 26px;
+    padding: 10px;
+    background-color: rgb(240, 240, 240);
+    border: 2px solid rgb(230, 230, 230);
+    border-radius: 5px;
 }
 
 .techNameAndLogoContainer {
@@ -65,21 +51,36 @@
 .technologyName {
     margin: 0;
     margin-left: 5px;
-    font-size: 25px;
-    font-family: Titillium;
-    font-weight: bold;
+    font-size: 23px;
+    font-family: Fjalla;
     color: rgb(70, 70, 70);
     border-radius: 7px;
+}
+
+.techExperiencePoints {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.circleIcon {
+    fill: rgb(210, 210, 210);
+    height: 26px;
+}
+
+.circleIconColor {
+    fill: rgb(41, 219, 41);
+    height: 26px;
 }
 
 .experienceTime {
     margin: 0;
     margin-left: 5px;
-    font-size: 20px;
-    font-family: Titillium;
+    font-size: 18px;
     font-weight: bold;
-    color: rgb(100, 100, 100);
-    border-radius: 7px;
+    font-family: Titillium;
+    color: rgb(70, 70, 70);
 }
 
 @media (max-width: 700px) {

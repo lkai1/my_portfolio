@@ -15,7 +15,7 @@ const TechExperience = () => {
         )
     }
 
-    const getTechExperience = (experienceAmount, experienceTime, techLogo, techName) => {
+    const getTechExperience = (experienceAmount, experienceTime, techLogo, techName, timeText) => {
         return (
             <div className={styles.technologyContainer}>
 
@@ -24,29 +24,29 @@ const TechExperience = () => {
                     <p className={styles.technologyName}>{techName}</p>
                 </div>
                 {getTechExperiencePoints(experienceAmount)}
-                <p className={styles.experienceTime}>({experienceTime} vuotta)</p>
+                <p className={styles.experienceTime}>({experienceTime} {timeText})</p>
             </div>
         )
     }
 
     return (
         <div className={styles.main}>
-            <p className={styles.sectionTitle}>Teknologiaosaaminen</p>
+            <p className={styles.sectionTitle}>Tech Skills</p>
             <div className={styles.technologiesContainer}>
-                {getTechExperience(4, 5, "/javascript.png", "JavaScript")}
-                {getTechExperience(4, 5, "/nodejs.png", "NodeJS")}
-                {getTechExperience(4, 5, "/css.png", "CSS")}
-                {getTechExperience(4, 5, "/react.png", "React")}
-                {getTechExperience(4, 4, "/postgresql.png", "PostgreSQL")}
-                {getTechExperience(4, 2, "/typescript.png", "TypeScript")}
-                {getTechExperience(4, 1, "/mongodb.png", "MongoDB")}
-                {getTechExperience(3, 1, "/react.png", "React Native")}
-                {getTechExperience(2, 0.9, "/csharp.png", "C#")}
-                {getTechExperience(2, 0.9, "/dotnet.png", ".NET")}
-                {getTechExperience(3, 0.7, "/sql.png", "SQL")}
-                {getTechExperience(3, 0.5, "/nextjs.png", "NextJS")}
-                {getTechExperience(2, 0.3, "/vitejs.png", "ViteJS")}
-                {getTechExperience(1, 0.1, "/aws.png", "AWS")}
+                {getTechExperience(5, 5, "/javascript.png", "JavaScript", "years")}
+                {getTechExperience(5, 5, "/nodejs.png", "NodeJS", "years")}
+                {getTechExperience(5, 5, "/css.png", "CSS", "years")}
+                {getTechExperience(5, 5, "/react.png", "React", "years")}
+                {getTechExperience(5, 4, "/postgresql.png", "PostgreSQL", "years")}
+                {getTechExperience(5, 2, "/typescript.png", "TypeScript", "years")}
+                {getTechExperience(5, 1, "/mongodb.png", "MongoDB", "year")}
+                {getTechExperience(3, 1, "/react.png", "React Native", "year")}
+                {getTechExperience(3, 10, "/csharp.png", "C#", "months")}
+                {getTechExperience(3, 10, "/dotnet.png", ".NET", "months")}
+                {getTechExperience(3, 7, "/sql.png", "SQL", "months")}
+                {getTechExperience(3, 5, "/nextjs.png", "NextJS", "months")}
+                {getTechExperience(3, 3, "/vitejs.png", "ViteJS", "months")}
+                {getTechExperience(1, 1, "/aws.png", "AWS", "month")}
             </div>
         </div>
     )
