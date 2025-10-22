@@ -66,11 +66,116 @@
     color: #0082d8;
 }
 
-.projectImage {
-    width: 300px;
-    height: 220px;
-    object-fit: fill;
+.projectImagesMain {
+    position: relative;
+}
+
+.projectMainImage {
+    max-width: 300px;
+    max-height: 220px;
+    object-fit: contain;
     border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.openImagesButton {
+    all: unset;
+    position: absolute;
+    top: 0;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    padding-right: 8px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 5px;
+    cursor: pointer;
+}
+
+.eyeIcon {
+    height: 22px;
+    fill: rgb(225, 225, 225);
+    margin-right: 5px;
+}
+
+.openImagesButtonText {
+    color: rgb(225, 225, 225);
+    font-size: 17px;
+    font-family: Fjalla;
+}
+
+.modalMain {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 3;
+}
+
+.closeIcon {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    height: 50px;
+    width: 50px;
+    fill: rgb(235, 235, 235);
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.modalContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+    display: flex;
+    flex-direction: row;
+}
+
+.arrowLeft {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    height: 80px;
+    border-radius: 3px;
+    fill: white;
+    left: 20px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.projectImageLarge {
+    position: relative;
+    border-radius: 5px;
+    max-width: 98%;
+    max-height: 90%;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+.arrowRight {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    height: 80px;
+    border-radius: 3px;
+    fill: white;
+    right: 20px;
+    cursor: pointer;
+    z-index: 2;
 }
 
 .projectDescription {

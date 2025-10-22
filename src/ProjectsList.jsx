@@ -1,6 +1,58 @@
 import styles from "./ProjectsList.module.css"
+import Eye from "../assets/eye_icon.svg?react"
+import LeftArrow from "../assets/leftarrow_icon.svg?react"
+import RightArrow from "../assets/rightarrow_icon.svg?react"
+import { useState } from "react"
+import Close from "../assets/close_icon.svg?react"
 
 const ProjectsList = () => {
+
+    const ProjectImages = ({ images }) => {
+
+        const [isOpen, setIsOpen] = useState(false)
+        const [currentImage, setCurrentImage] = useState(images[0])
+
+        const changeImage = (side) => {
+            if (side === "left") {
+                currentImage === images[0]
+                    ? setCurrentImage(images[images.length - 1])
+                    : setCurrentImage(images[images.indexOf(currentImage) - 1])
+            } else {
+                currentImage === images[images.length - 1]
+                    ? setCurrentImage(images[0])
+                    : setCurrentImage(images[images.indexOf(currentImage) + 1])
+            }
+        }
+
+        return (
+            <div className={styles.projectImagesMain}>
+                <img src="/bonusfun_front.png" className={styles.projectMainImage} />
+                <button className={styles.openImagesButton} onClick={() => {
+                    setIsOpen(true)
+                    document.body.style.overflow = 'hidden';
+                }}>
+                    <Eye className={styles.eyeIcon} />
+                    <p className={styles.openImagesButtonText}>more images</p>
+                </button>
+                {isOpen ?
+                    <div className={styles.modalMain}>
+                        <Close className={styles.closeIcon} onClick={() => {
+                            document.body.style.overflow = '';
+                            setIsOpen(false)
+                        }} />
+                        <div className={styles.modalContent}>
+                            <LeftArrow className={styles.arrowLeft} onClick={() => changeImage("left")} />
+                            <img src={currentImage} className={styles.projectImageLarge} />
+                            <RightArrow className={styles.arrowRight} onClick={() => changeImage("right")} />
+                        </div>
+                    </div>
+                    :
+                    <></>
+                }
+            </div>
+        )
+    }
+
     return (
         <div className={styles.main}>
             <p className={styles.sectionTitle}>Hobby Projects</p>
@@ -8,7 +60,7 @@ const ProjectsList = () => {
 
                 <div className={styles.projectContainer}>
                     <a className={styles.projectNameLink} href="https://www.flierchat.com" target="_blank" rel="noopener noreferrer">Flierchat</a>
-                    <img src="/flierchat.png" className={styles.projectImage} />
+                    <img src="/flierchat.png" className={styles.projectMainImage} />
                     <p className={styles.projectDescription}>Realtime chat web application</p>
                     <p className={styles.technologiesTitle}>Main Tech Stack:</p>
                     <div className={styles.technologiesContainer}>
@@ -58,7 +110,13 @@ const ProjectsList = () => {
 
                 <div className={styles.projectContainer}>
                     <a className={styles.projectNameLink} href="https://bonusfun-production.up.railway.app/fi" target="_blank" rel="noopener noreferrer">Bonusfun</a>
-                    <img src="/bonus_fun.png" className={styles.projectImage} />
+                    <ProjectImages images={[
+                        "/bonusfun_front.png",
+                        "/bonusfun_adminlogin.png",
+                        "/bonusfun_newcard.png",
+                        "/bonusfun_updatecard.png",
+                        "/bonusfun_updateorder.png"
+                    ]} />
                     <p className={styles.projectDescription}>Casino reflink web application</p>
                     <p className={styles.technologiesTitle}>Main Tech Stack:</p>
                     <div className={styles.technologiesContainer}>
@@ -103,7 +161,7 @@ const ProjectsList = () => {
 
                 <div className={styles.projectContainer}>
                     <p className={styles.projectName}>Wallet Track</p>
-                    <img src="/wallet_track.png" className={styles.projectImage} />
+                    <img src="/wallet_track.png" className={styles.projectMainImage} />
                     <p className={styles.projectDescription}>Cryptowallet tracker bot for telegram</p>
                     <p className={styles.technologiesTitle}>Main Tech Stack:</p>
                     <div className={styles.technologiesContainer}>
