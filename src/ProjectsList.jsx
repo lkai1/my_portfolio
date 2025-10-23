@@ -26,7 +26,7 @@ const ProjectsList = () => {
 
         return (
             <div className={styles.projectImagesMain}>
-                <img src="/bonusfun_front.png" className={styles.projectMainImage} />
+                <img src={images[0]} className={styles.projectMainImage} />
                 <button className={styles.openImagesButton} onClick={() => {
                     setIsOpen(true)
                     document.body.style.overflow = 'hidden';
@@ -160,7 +160,10 @@ const ProjectsList = () => {
 
                 <div className={styles.projectContainer}>
                     <p className={styles.projectName}>Wallet Track</p>
-                    <img src="/wallet_track.png" className={styles.projectMainImage} />
+                    <ProjectImages images={[
+                        "/wallettrack.png",
+                        "/wallettrack2.png"
+                    ]} />
                     <p className={styles.projectDescription}>Cryptowallet tracker bot for telegram</p>
                     <p className={styles.technologiesTitle}>Main Tech Stack:</p>
                     <div className={styles.technologiesContainer}>
