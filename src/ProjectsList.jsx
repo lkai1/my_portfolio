@@ -114,8 +114,7 @@ const ProjectsList = () => {
                         "/bonusfun_front.png",
                         "/bonusfun_adminlogin.png",
                         "/bonusfun_newcard.png",
-                        "/bonusfun_updatecard.png",
-                        "/bonusfun_updateorder.png"
+                        "/bonusfun_updatecard.png"
                     ]} />
                     <p className={styles.projectDescription}>Casino reflink web application</p>
                     <p className={styles.technologiesTitle}>Main Tech Stack:</p>
