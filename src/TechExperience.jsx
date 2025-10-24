@@ -46,6 +46,7 @@ const TechExperience = () => {
                 {getTechExperience(3, 7, "/sql.png", "SQL", "months")}
                 {getTechExperience(3, 5, "/nextjs.png", "NextJS", "months")}
                 {getTechExperience(3, 3, "/vitejs.png", "ViteJS", "months")}
+                {getTechExperience(2, 3, "/docker.png", "Docker", "months")}
                 {getTechExperience(1, 1, "/aws.png", "AWS", "month")}
             </div>
         </div>
