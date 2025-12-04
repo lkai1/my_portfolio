@@ -62,6 +62,12 @@ const About = () => {
                     speed={13}
                     className={styles.aboutText}
                 />
+                <p>
+                    I am a Mid-level FullStack Developer.
+                    I have approximately six years of experience in web and mobile development,
+                    gained through personal projects, multiple training programs, internship and freelance work.
+                    className={styles.aboutText}
+                </p>
             </div>
         </div>
     )
