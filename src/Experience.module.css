@@ -68,7 +68,7 @@
 }
 
 .companyLogo {
-    height: 100px;
+    height: 110px;
     border-radius: 3px;
 }
 
@@ -130,7 +130,7 @@
     cursor: pointer;
     background-color: rgb(11, 118, 218);
     border-radius: 20px;
-    margin: 20px;
+    margin: 10px;
     margin-top: 25px;
     color: rgb(255, 255, 255);
 }
