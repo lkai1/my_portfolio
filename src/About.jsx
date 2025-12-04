@@ -55,18 +55,10 @@ const About = () => {
                         className={styles.aboutTitle}
                     />
                 </div>
-                <TypewriterText
-                    text="I am a Mid-level FullStack Developer.
-                    I have approximately six years of experience in web and mobile development,
-                    gained through personal projects, multiple training programs, internship and freelance work."
-                    speed={13}
-                    className={styles.aboutText}
-                />
-                <p>
+                <p className={styles.aboutText}>
                     I am a Mid-level FullStack Developer.
                     I have approximately six years of experience in web and mobile development,
                     gained through personal projects, multiple training programs, internship and freelance work.
-                    className={styles.aboutText}
                 </p>
             </div>
         </div>
