@@ -55,6 +55,15 @@ const ProjectsList = () => {
 
     return (
         <div className={styles.main}>
+            <p className={styles.sectionTitle}>Projects</p>
+            <div className={styles.projects}>
+                <div className={styles.projectContainer}>
+                    <p className={styles.projectName}>taskuraha.net</p>
+                    <img src="/taskuraha.png" className={styles.projectMainImage} />
+                    <p className={styles.projectDescription}>Since it is impossible to get a job in Finland, I am now starting my own business.</p>
+                </div>
+            </div>
+            
             <p className={styles.sectionTitle}>Hobby Projects</p>
             <div className={styles.projects}>
 
