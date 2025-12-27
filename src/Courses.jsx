@@ -7,7 +7,7 @@ const Courses = () => {
             <p className={styles.sectionTitle}>Courses & Certificates</p>
             <div className={styles.courses}>
                 <div className={styles.courseContainer}>
-                    <p className={styles.courseName}>AWS Cloud Practitioner Essentials</p>
+                    <p className={styles.courseName}>AWS Certified Cloud Practitioner: Exam Prep Plan</p>
                     <img src="/aws_exam_prep_plan_certified_cloud_practitioner_certification.png" className={styles.courseImage} />
                 </div>
             </div>
