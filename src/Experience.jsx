@@ -97,7 +97,7 @@ const Experience = () => {
                         logo="/buutti.webp"
                         companyName="Buutti Oy"
                         positionName="Student"
-                        location="Hybrid"
+                        location="Hybrid/Tampere"
                         description="A training program focused on FullStack web development, covering the creation of web applications from start to finish.
                             The course included exposure to JavaScript, TypeScript, CSS, SQL, PostgreSQL, and MongoDB.
                             The studies also involved implementing user registration and login using JWT tokens, as well as testing with Jest and Cypress and using the Material UI component library.
@@ -115,7 +115,7 @@ const Experience = () => {
                         logo="/wiiste.png"
                         companyName="Wiiste Oy"
                         positionName="Trainee FullStack developer"
-                        location="Hybrid"
+                        location="Hybrid/Tampere"
                         description="I completed an internship as a FullStack developer at a company where I was the sole web developer. 
                             I was independently responsible for various development tasks without technical support, making extensive use of my previous skills. I worked on both the frontend and backend.
                             The internship was hands-on and provided responsibility from the very beginning. My tasks included, among other things, 

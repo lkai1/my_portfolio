@@ -2,6 +2,7 @@
     width: 90%;
     margin-top: 50px;
     background-color: rgb(245, 245, 245);
+    border-top: 2px solid rgb(225, 225, 225);
 }
 
 .sectionTitle {
@@ -11,7 +12,8 @@
     font-family: Fjalla;
     font-weight: bold;
     margin: 0;
-    margin-bottom: 60px;
+    padding-bottom: 30px;
+    padding-top: 50px;
 }
 
 .technologiesContainer {

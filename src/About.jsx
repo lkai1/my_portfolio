@@ -2,7 +2,7 @@ import styles from "./About.module.css"
 import { useEffect, useState } from "react";
 const About = () => {
 
-    const TypewriterText = ({ text, speed = 30, className, reverse }) => {
+    const TypewriterText = ({ text, speed = 10, className, reverse }) => {
         const [displayedText, setDisplayedText] = useState("");
 
         useEffect(() => {
@@ -45,13 +45,13 @@ const About = () => {
                 <div className={styles.titleContainer}>
                     <TypewriterText
                         text="Kai Lehtinen"
-                        speed={65}
+                        speed={100}
                         className={styles.aboutTitleName}
                         reverse={true}
                     />
                     <TypewriterText
                         text="FullStack developer"
-                        speed={40}
+                        speed={65}
                         className={styles.aboutTitle}
                     />
                 </div>
