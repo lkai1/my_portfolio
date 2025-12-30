@@ -73,7 +73,7 @@ const Experience = () => {
                 <div className={styles.experienceContainer}>
                     <div className={styles.experienceTitleContainer}>
                         <p className={styles.experienceTitleTimePeriod}>2020 (2.5 Months)</p>
-                        <p className={styles.experienceTitle}>React Buutcamp</p>
+                        <p className={styles.experienceTitle}>React BuutCamp</p>
                         <img src="/buutti.webp" className={styles.companyLogo} />
                     </div>
                     <ExperienceInfoModal
