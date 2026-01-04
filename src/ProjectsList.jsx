@@ -60,7 +60,7 @@ const ProjectsList = () => {
                 <div className={styles.projectContainer}>
                     <p className={styles.projectName}>taskuraha.net</p>
                     <img src="/taskuraha.png" className={styles.projectMainImage} />
-                    <p className={styles.projectDescription}>Since it is impossible to get a job in Finland, I am now starting my own business.</p>
+                    <p className={styles.projectDescription}>More information when published.</p>
                 </div>
             </div>
 
