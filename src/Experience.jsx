@@ -66,7 +66,7 @@ const Experience = () => {
                         location="Remote"
                         description="I completed online studies in computer science that correspond to the content of the first year at university.
                             The studies covered, among other things, the basics of programming, algorithms and data structures, as well as key concepts in computer science and problem-solving.
-                            The courses were self-paced online, and they provided a solid foundation for understanding how software works and how it is developed."
+                            The courses were self-paced online."
                     />
                 </div>
 
@@ -81,9 +81,7 @@ const Experience = () => {
                         companyName="Buutti Oy"
                         positionName="Student"
                         location="Remote"
-                        description="The course introduced the basics of HTML, CSS, JavaScript, and React, with a particular focus on understanding fundamental concepts and tools.
-                            I learned how the structure, appearance, and basic functionality of web pages are created, 
-                            and I gained a solid foundation to continue learning and develop my skills further through practical experience."
+                        description="The course introduced the basics of HTML, CSS, JavaScript, and React, with a particular focus on understanding fundamental concepts and tools."
                     />
                 </div>
 
@@ -100,8 +98,7 @@ const Experience = () => {
                         location="Hybrid/Tampere"
                         description="A training program focused on FullStack web development, covering the creation of web applications from start to finish.
                             The course included exposure to JavaScript, TypeScript, CSS, SQL, PostgreSQL, and MongoDB.
-                            The studies also involved implementing user registration and login using JWT tokens, as well as testing with Jest and Cypress and using the Material UI component library.
-                            The training emphasized practical exercises and teamwork, providing a solid overall understanding of how modern full-stack applications are built from both the frontend and backend perspectives"
+                            The studies also involved implementing user registration and login using JWT tokens, as well as testing with Jest and Cypress and using the Material UI component library."
                     />
                 </div>
 
@@ -116,11 +113,12 @@ const Experience = () => {
                         companyName="Wiiste Oy"
                         positionName="Trainee FullStack developer"
                         location="Hybrid/Tampere"
-                        description="I completed an internship as a FullStack developer at a company where I was the sole web developer. 
-                            I was independently responsible for various development tasks without technical support, making extensive use of my previous skills. I worked on both the frontend and backend.
-                            The internship was hands-on and provided responsibility from the very beginning. My tasks included, among other things, 
-                            optimizing a graphical component handling large datasets (up to 50,000 data points), fixing broken animations on the website, and implementing significant changes to a C# ASP.NET backend system.
-                            The internship particularly developed my ability to solve problems independently and enhanced my practical skills for working in a production environment."
+                        description="I was independently responsible for various development tasks without technical support.
+                        I worked on both the frontend and backend. My tasks included, among other things, 
+                        optimizing a graphical component handling large datasets (up to 50,000 data points at the same time), 
+                        fixing broken animations on the website, and implementing changes and fixes to a backend system. 
+                        If I remember correctly, I was offered a part-time job with very few hours after the Trainee period. 
+                        I made a mistake and refused, so I could be free to find a full-time job but never did."
                     />
                 </div>
 
@@ -135,10 +133,13 @@ const Experience = () => {
                         companyName="Defination Labs FZCO"
                         positionName="Mid-level FullStack developer"
                         location="Remote"
-                        description="I worked as a freelancer as a FullStack web and mobile developer, completing both solo and team projects remotely.
-                            I was responsible for designing and implementing user interfaces as well as their backend solutions, either independently or as part of a team.
-                            In several projects, I managed the entire process independently: selecting and setting up the development environment and building the product into a fully functional cloud-based service.
-                            This experience gave me comprehensive development skills, combining technical expertise with project management."
+                        description="I worked as a freelancer as a FullStack web and mobile developer, 
+                        completing both solo and team projects remotely. 
+                        I was responsible for designing and implementing user interfaces as well as their backend solutions, 
+                        either independently or as part of a team. In several projects, I managed the entire process independently,
+                        selecting and setting up the development environment 
+                        and building the product into a fully functional cloud-based production ready service. 
+                        This was not a fulltime job, sometimes I worked 16 hours a day and sometimes there was no work."
                     />
                 </div>
 
@@ -155,7 +156,7 @@ const Experience = () => {
                         location="Remote"
                         description="I am currently participating in an online training program focused on ethical hacking and cybersecurity through practical exercises.
                             The course is self-paced, and it provides hands-on practice in identifying and exploiting security vulnerabilities in servers and user interfaces.
-                            The training offers valuable experience in security testing and deepens understanding of how system security can be improved using responsible and effective methods"
+                            The training offers valuable experience in security testing and deepens understanding of how system security can be improved."
                     />
                 </div>
             </div>
