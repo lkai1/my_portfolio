@@ -56,9 +56,9 @@ const About = () => {
                     />
                 </div>
                 <p className={styles.aboutText}>
-                    I am a Mid-level FullStack Developer.
                     I have approximately six years of experience in web and mobile development,
                     gained through personal projects, multiple training programs, internship and freelance work.
+                    Even with my absolutely poor luck in the job markets, I have been actively coding and learning new things.
                 </p>
             </div>
         </div>
